@@ -6,7 +6,7 @@ const port = 3000;
 app.use(express.json());
 
 // Basic route
-app.use('/', express.static("publick"));
+app.use('/', express.static("Publick"));
 
 // Start the server
 app.listen(port, () => {
